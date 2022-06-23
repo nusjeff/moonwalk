@@ -12,6 +12,8 @@ import Preview from "../components/Preview";
 import { STATES } from "../constants";
 import useAppState from "../hooks/useAppState";
 import Launches from "../stores/Launches";
+import PointziReact from "pointzi-react";
+import {NativeModules} from 'react-native';
 
 const Wrapper = styled.SafeAreaView`
   align-items: center;
@@ -28,6 +30,12 @@ const Dashboard = observer(() => {
   }, [launchesStore]);
 
   useEffect(() => {
+    PointziReact.viewWillRender('PageOne');
+    PointziReact.tagCuid('user_id');
+    PointziReact.tagString('sh_email','hello@streethawk.com');
+    PointziReact.tagString('sh_first_name','David');
+
+
     loadData();
     launchesStore.initApp();
   }, [launchesStore, loadData]);

@@ -5,6 +5,7 @@
 #import <React/RCTRootView.h>
 
 #import <Firebase.h>
+#import "StreetHawkCore_Pointzi.h"
 
 #ifdef FB_SONARKIT_ENABLED
 #import <FlipperKit/FlipperClient.h>
@@ -29,6 +30,7 @@ static void InitializeFlipper(UIApplication *application) {
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  [POINTZI registerInstallForApp:@"MyApp" withDebugMode:NO];
   if ([FIRApp defaultApp] == nil) {
     [FIRApp configure];
   }
@@ -48,7 +50,7 @@ static void InitializeFlipper(UIApplication *application) {
   }
 
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-  UIViewController *rootViewController = [UIViewController new];
+  UIViewController *rootViewController = [StreetHawkBaseViewController new];
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];

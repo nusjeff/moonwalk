@@ -74,6 +74,7 @@
 		9C74CF25266A8189001AE347 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		B651DDDA16ED005D8F0A30B1 /* Pods-moonwalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk.release.xcconfig"; path = "Target Support Files/Pods-moonwalk/Pods-moonwalk.release.xcconfig"; sourceTree = "<group>"; };
 		C75B088E2864256100587EB0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "moonwalk/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C75B08902864491C00587EB0 /* moonwalk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "moonwalk-Bridging-Header.h"; sourceTree = "<group>"; };
 		DEC46F8D4095F30625924E11 /* libPods-moonwalk-moonwalkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonwalk-moonwalkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -160,6 +161,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				C75B08902864491C00587EB0 /* moonwalk-Bridging-Header.h */,
 				C75B088E2864256100587EB0 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* moonwalk */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
