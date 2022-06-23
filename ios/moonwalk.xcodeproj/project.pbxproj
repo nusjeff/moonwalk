@@ -28,8 +28,8 @@
 		9C74CF20266A688F001AE347 /* logo_lightblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C74CF11266A688F001AE347 /* logo_lightblue.png */; };
 		9C74CF21266A688F001AE347 /* logo_darkblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C74CF12266A688F001AE347 /* logo_darkblue.png */; };
 		9C74CF22266A688F001AE347 /* logo_darkblue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C74CF13266A688F001AE347 /* logo_darkblue@3x.png */; };
-		9C74CF24266A7299001AE347 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C74CF23266A7299001AE347 /* GoogleService-Info.plist */; };
 		9C74CF26266A8189001AE347 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C74CF25266A8189001AE347 /* LaunchScreen.xib */; };
+		C75B088F2864256100587EB0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C75B088E2864256100587EB0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,9 +71,9 @@
 		9C74CF11266A688F001AE347 /* logo_lightblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_lightblue.png; sourceTree = "<group>"; };
 		9C74CF12266A688F001AE347 /* logo_darkblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_darkblue.png; sourceTree = "<group>"; };
 		9C74CF13266A688F001AE347 /* logo_darkblue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_darkblue@3x.png"; sourceTree = "<group>"; };
-		9C74CF23266A7299001AE347 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9C74CF25266A8189001AE347 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		B651DDDA16ED005D8F0A30B1 /* Pods-moonwalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk.release.xcconfig"; path = "Target Support Files/Pods-moonwalk/Pods-moonwalk.release.xcconfig"; sourceTree = "<group>"; };
+		C75B088E2864256100587EB0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "moonwalk/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DEC46F8D4095F30625924E11 /* libPods-moonwalk-moonwalkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonwalk-moonwalkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -160,7 +160,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				9C74CF23266A7299001AE347 /* GoogleService-Info.plist */,
+				C75B088E2864256100587EB0 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* moonwalk */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* moonwalkTests */,
@@ -307,7 +307,7 @@
 				9C74CF1F266A688F001AE347 /* logo_milkyway@3x.png in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				9C74CF18266A688F001AE347 /* logo_darkblue@2x.png in Resources */,
-				9C74CF24266A7299001AE347 /* GoogleService-Info.plist in Resources */,
+				C75B088F2864256100587EB0 /* GoogleService-Info.plist in Resources */,
 				9C74CF1E266A688F001AE347 /* logo_white@2x.png in Resources */,
 				9C74CF26266A8189001AE347 /* LaunchScreen.xib in Resources */,
 				9C74CF19266A688F001AE347 /* logo_black.png in Resources */,
